@@ -1,24 +1,26 @@
 <!DOCTYPE html> <!--Quer dizer a versão  do HTMLL que usaremos-->
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Rafael S. Fonseca</title>
-    <link rel="stylesheet" href="style.css">
+<html lang="pt-br"> <!--o atributo "lang" fica dentro da tag html para dizer que o idioma que aparecerá nesta página será em português brasileiro-->
+<head> <!--Está é a teg cabeça do site ou no caso onde fica a configuração da página-->
+    <meta charset="UTF-8"> <!--define a codificação de caracteres para a página. Isso significa que a página irá usar o conjunto de caracteres UTF-8, que suporta a maioria dos caracteres, incluindo caracteres especiais e emojis. Sem esta tag, a página pode não exibir corretamente caracteres que não estão no conjunto básico ASCII-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--é usada para informar o Internet Explorer (e o Microsoft Edge, que usa o mesmo mecanismo) que ele deve usar a sua versão mais recente para renderizar a página. Isso ajuda a garantir que a página seja exibida corretamente, mesmo em máquinas onde o Internet Explorer está em modo de compatibilidade ou em versões mais antigas. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--é usada em HTML para controlar como uma página da web é exibida em diferentes dispositivos, especialmente em dispositivos móveis. Ela instrui o navegador a ajustar o tamanho e a escala da página para que ela se adapte ao tamanho da tela do dispositivo. -->
+    <title>Portifólio Rafael S. Fonseca</title> <!--Esta tag define o título da página que aparecera na guia do navegador-->
+    <link rel="stylesheet" href="style.css"> <!--vincula um arquivo CSS (Cascading Style Sheets) a uma página HTML, indicando que a página deve usar os estilos definidos nesse arquivo para apresentação. Em detalhes: <link>: A tag <link> é usada para estabelecer uma relação entre o documento HTML atual e um recurso externo, como um arquivo CSS. rel="stylesheet": O atributo rel especifica o tipo de relação entre a página e o arquivo. Neste caso, stylesheet indica que o arquivo é um arquivo de folha de estilos. href="style.css": O atributo href especifica o caminho para o arquivo CSS que deve ser vinculado. style.css é o nome do arquivo CSS. Ao usar esta tag, o navegador carrega o arquivo CSS e aplica os estilos definidos nele à página HTML. Isso permite que a página tenha um estilo consistente com as regras definidas no arquivo CSS, sem a necessidade de repetir as regras em cada arquivo HTML.--> 
 </head>
-<body>
-    <header>
-        <h1>Portifólio de <strong>Rafael S. Fonseca</strong></h1>
+<body> <!--Quer dizer corpo, ou seja onde está localizado todo o conteúdo vísivel da página-->
+    <header> <!--Quer dizer cabeçalho-->
+        <h1>Portifólio de <strong>Rafael S. Fonseca</strong></h1> <!--h1: É uma tag para inserir títulos e strong: É uma tag para dar evidância ao conteúdo que existe entre ela-->
     </header>
-    <main>
+    <main> <!--indica o conteúdo principal de um documento, ou seja, a parte mais relevante e central da página. É uma tag semântica que ajuda a estruturar e organizar o conteúdo, facilitando a leitura para pessoas e mecanismos de busca (SEO)-->
         <section>
-        <p>Este é meu portifólio que tem como obejetivo apresentar um pouco do que venho estudando e aprendendo.</p>
-        </section>
-        <img src="Foto perfil Rafael Fonseca.jpg" alt="Foto de perfil de Rafael S. Fonseca">
+            <h2>Objetivo:</h2> <!--h2: Serve para inserir título de menor importância que o h1-->
+            <p>Este é meu portifólio que tem como objetivo apresentar um pouco do que venho estudando e aprendendo.</p> <!--Esta tag serve para inserir um parágrafo-->
+        </section> <!--é utilizada para definir uma seção ou divisão de conteúdo dentro de um documento, geralmente com um título. Ela representa uma seção temática ou um grupo lógico de conteúdo. Em vez de ser usada para estilização, como a tag <div>, a <section> tem um propósito semântico, indicando que o conteúdo dentro dela está relacionado e forma uma unidade distinta da página. -->
+        <img src="Foto perfil Rafael Fonseca.jpg" alt="Foto de perfil de Rafael S. Fonseca"> <!--Esta tag serve para inserir imagem no site está junta de um atributo "alt": Da palavra alternativa, ou seja, faz aparecer um texto no lugar da foto caso ela não abra por algum motivo-->
     </main>
-    <footer>
-        <a href="fonsecafael@gmail.com" target="_blank">E-mail</a><E-mail>fonsecafael@gmail.com</E-mail> <!--Verificar como fazer o e-mail-->
+    <footer> <!--Trata-se da parte inferior de uma página da internet, que geralmente contém informações como links de navegação, informações de contato, direitos autorais, etc.-->
+        <a href="tel:+5527998970781" target="_blank">Rafael: +5527998970781 (WhatsApp)</a> <!--em HTML representa uma âncora, e é utilizada para criar hiperligações (links) entre diferentes páginas ou documentos na web. Em outras palavras, quando você clica num link criado com a tag <a>, o navegador é instruído a navegar para a página ou recurso especificado no atributo href da tag. Atributo href: O atributo href é obrigatório e contém o endereço (URL) do recurso para o qual o link aponta. indica que o link ou o documento deve ser aberto em uma nova janela ou aba do navegador. É uma forma de alterar o comportamento padrão de abrir um link na mesma janela.-->
+        <a href="fonsecafael@gmail.com" target="_blank">E-mail: fonsecafael@gmail.com</a>
         <a href="https://www.linkedin.com/in/fonsecafaell" target="_blank">Linkedin</a>
         <a href="https://github.com/fonsecafael" target="_blank">Github</a>
     </footer>    
